@@ -1,0 +1,172 @@
+[
+  {
+    "product_id": "1",
+    "product_title": "Samsung Galaxy S21",
+    "product_image": "https://i.ibb.co.com/gRhYcN5/Galaxy-S21-FE-128-GB-Blanc.jpg",
+    "category": "phone",
+    "price": 799.99,
+    "description": "Samsung Galaxy S21 with a stunning display and powerful processor for an amazing experience.",
+    "Specification": [
+      "6.2-inch Dynamic AMOLED display",
+      "128GB storage",
+      "Triple rear camera system",
+      "5G enabled",
+      "4000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "2",
+    "product_title": "Apple iPhone 13",
+    "product_image": "https://i.ibb.co.com/pfw61qT/Download-Apple-i-Phone-14-Wallpaper-full-resolution-QHD-Mi-Deals.jpg",
+    "category": "phone",
+    "price": 999.99,
+    "description": "Apple iPhone 13 with advanced dual-camera system and powerful A15 Bionic chip.",
+    "Specification": [
+      "6.1-inch Super Retina XDR display",
+      "128GB storage",
+      "Dual rear cameras",
+      "5G enabled",
+      "Ceramic Shield front cover"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "3",
+    "product_title": "Google Pixel 6",
+    "product_image": "https://i.ibb.co.com/QCpDFWF/Google-Pixel-7-5-G-Android-Phone-Unlocked-Smartphone-with-Telephoto-Lens-256-GB-Snow.jpg",
+    "category": "phone",
+    "price": 599.99,
+    "description": "Google Pixel 6 with a stunning camera, Google Tensor processor, and a new design.",
+    "Specification": [
+      "6.4-inch OLED display",
+      "128GB storage",
+      "Dual rear cameras",
+      "5G enabled",
+      "Adaptive Battery"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "4",
+    "product_title": "OnePlus 9 Pro",
+    "product_image": "https://i.ibb.co.com/sWQyQjw/One-Plus-9-Pro-Morning-Mist-5-G-Unlocked-Android-Smartphone-U-S-Version-12-GB-RAM-256-GB-Storage-120.jpg",
+    "category": "phone",
+    "price": 899.99,
+    "description": "OnePlus 9 Pro with Hasselblad camera technology and a high-refresh-rate display.",
+    "Specification": [
+      "6.7-inch Fluid AMOLED display",
+      "256GB storage",
+      "Quad rear camera system",
+      "5G enabled",
+      "4500mAh battery with fast charging"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "5",
+    "product_title": "Xiaomi Mi 11",
+    "product_image": "https://i.ibb.co.com/X49NvNR/Xiaomi-Mi-11-Lite-5g-Ne-Dual-Sim-128-Gb-Bubblegum-Blue-8-Gb.jpg",
+    "category": "phone",
+    "price": 749.99,
+    "description": "Xiaomi Mi 11 with a high-resolution display and premium performance for gaming and media.",
+    "Specification": [
+      "6.81-inch AMBLED display",
+      "128GB storage",
+      "Triple rear camera system",
+      "5G enabled",
+      "4600mAh battery with fast charging"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "6",
+    "product_title": "Huawei P50 Pro",
+    "product_image": "https://i.ibb.co.com/vDMjqqt/4536-16104.jpg",
+    "category": "phone",
+    "price": 1099.99,
+    "description": "Huawei P50 Pro with a powerful camera and sleek design for photography enthusiasts.",
+    "Specification": [
+      "6.6-inch OLED display",
+      "256GB storage",
+      "Quad rear camera system",
+      "5G enabled",
+      "4360mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "7",
+    "product_title": "Dell XPS 13",
+    "product_image": "https://i.ibb.co.com/PtkVFJm/Dell-XPS-13-Plus-Laptop.jpg",
+    "category": "laptop",
+    "price": 1249.99,
+    "description": "Dell XPS 13 with a sleek design, InfinityEdge display, and exceptional performance.",
+    "Specification": [
+      "13.4-inch Full HD+ display",
+      "512GB SSD",
+      "16GB RAM",
+      "Intel Core i7 processor",
+      "Backlit keyboard"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "8",
+    "product_title": "Microsoft Surface Laptop 4",
+    "product_image": "https://i.ibb.co.com/tbRxrF1/Microsoft-Surface-Laptop-Studio-2-For-Business-14-4-i7-16-GB-512-GB-W11-P-ZRG-00015-Branded-Laptops.jpg",
+    "category": "laptop",
+    "price": 999.99,
+    "description": "Microsoft Surface Laptop 4, combining sleek design with powerful performance for work and play.",
+    "Specification": [
+      "13.5-inch PixelSense display",
+      "256GB SSD",
+      "8GB RAM",
+      "Intel Core i5 processor",
+      "Touchscreen functionality"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "9",
+    "product_title": "Apple iPad Pro 11",
+    "product_image": "https://i.ibb.co.com/850Yk7t/Apple-i-Pad-Pro-11-Wi-Fi-Cellular-256-GB-Space-Grey.jpg",
+    "category": "tablet",
+    "price": 799.99,
+    "description": "Apple iPad Pro 11 with powerful performance and ProMotion technology for smooth visuals.",
+    "Specification": [
+      "11-inch Liquid Retina display",
+      "128GB storage",
+      "M1 chip",
+      "Face ID",
+      "Support for Apple Pencil 2nd generation"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "10",
+    "product_title": "Samsung Galaxy Tab S7",
+    "product_image": "https://i.ibb.co.com/X581yqF/Samsung-Galaxy-Tab-S7-FE-Tablet-Android-12-4-Pollici-5-G-RAM-4-GB-64-GB.jpg",
+    "category": "tablet",
+    "price": 649.99,
+    "description": "Samsung Galaxy Tab S7 with an immersive display and versatile S Pen support.",
+    "Specification": [
+      "11-inch TFT display",
+      "128GB storage",
+      "Snapdragon 865+ processor",
+      "13MP rear camera",
+      "Support for S Pen"
+    ],
+    "availability": true,
+    "rating": 4.6
+  }
+]

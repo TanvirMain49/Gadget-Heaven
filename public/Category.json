@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "category": "All Product"
+    },
+    {
+      "id": 2,
+      "category": "phone"
+    },
+    {
+      "id": 3,
+      "category": "laptop"
+    },
+    {
+      "id": 4,
+      "category": "tablet"
+    },
+    {
+      "id": 5,
+      "category": "accessories"
+    }
+  ]
+}
