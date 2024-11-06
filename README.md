@@ -3,7 +3,7 @@
 Welcome to *GadgetHeaven* — your go-to destination for the latest and greatest gadgets! This responsive e-commerce platform is built with React, allowing users to browse products, manage their cart and wishlist, and complete purchases seamlessly.
 
 ## Live Website Link
-- [Live Demo](giddy-engine.surge.sh)
+- [Live Demo](https://giddy-engine.surge.sh/)
 
 ## Requirement Document
 - [Requirement Document](https://github.com/programming-hero-web-course2/b10a8-gadget-heaven-TanvirMain49)
@@ -18,14 +18,6 @@ Welcome to *GadgetHeaven* — your go-to destination for the latest and greatest
 4. *Toast Notifications*: Users receive notifications when items are added to the cart or wishlist.
 5. *Statistics Page*: Visualize data with a chart that displays price vs. product name and a scatter plot for ratings.
 
----
-
-## 📖 Usage Guide
-
-- *Browse Products*: Explore products across various categories.
-- *Manage Cart and Wishlist*: Add items to the cart or wishlist and view them anytime.
-- *Sort Cart Items*: In the cart, sort products by price for easy comparison.
-- *View Statistics*: Access the statistics page for product analysis.
 
 ---
 
@@ -50,12 +42,5 @@ Welcome to *GadgetHeaven* — your go-to destination for the latest and greatest
 
 ---
 
-## 🔍 Future Improvements
-
-- *Testing*: Adding unit and integration tests for better code reliability.
-- *Enhanced Filtering Options*: Implement advanced filters, like price range and brand.
-- *User Accounts*: Allow users to create accounts and save their cart/wishlist for future visits.
-
----
 
 This README provides an overview of the *GadgetHeaven* project, from features to setup, with future improvements planned for a better user experience.
