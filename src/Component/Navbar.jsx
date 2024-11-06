@@ -1,23 +1,24 @@
-import { Link } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { CiShoppingCart, CiHeart } from "react-icons/ci";
 
+
 const Navbar = () => {
+  const location = useLocation();
+  console.log(location.pathname)
   const links = (
     <>
-      <li>
-        <Link to='/' className="font-bold">Home</Link>
-      </li>
-      <li>
-        <Link to='/statistics' className="font-bold">Statistics</Link>
-      </li>
-      <li>
-        <Link to='/dashboard' className="font-bold">Dashboard</Link>
-      </li>
+        <NavLink to='/' className={({isActive}) => isActive ? "bg-[#9538E2] text-white font-bold p-2 mr-2 rounded-lg" : "bg-transparent text-black font-bold p-2 mr-2 rounded-lg"}>Home</NavLink>
+
+        <NavLink to='/dashboard' className={({isActive}) => isActive ? "bg-[#9538E2] text-white font-bold p-2 mr-2 rounded-lg" : "bg-transparent text-black font-bold p-2 mr-2 rounded-lg"}>Dashboard</NavLink>
+        
+        <NavLink to='/Reviews' className={({isActive}) => isActive ? "bg-[#9538E2] text-white font-bold p-2 mr-2 rounded-lg" : "bg-transparent text-black font-bold p-2 mr-2 rounded-lg"}>Review</NavLink>
+
+
     </>
   );
 
   return (
-    <div className="navbar bg-transparent">
+    <div className="navbar">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -48,12 +49,12 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-4">{links}</ul>
       </div>
-      <div className="navbar-end gap-2">
-        <a className="btn p-2 rounded-full text-2xl"><CiShoppingCart /></a>
-        <a className="btn p-2 rounded-full text-2xl"><CiHeart></CiHeart></a>
+      <div className="navbar-end gap-4 relative">
+        <NavLink to="/dashboard/product-cart" className='btn p-2 rounded-full text-2xl'><CiShoppingCart /></NavLink>
+        <NavLink to="/dashboard/wish-cart" className="btn p-2 rounded-full text-2xl"><CiHeart></CiHeart></NavLink>
       </div>
     </div>
   );
 };
-
+// btn p-2 rounded-full text-2xl
 export default Navbar;

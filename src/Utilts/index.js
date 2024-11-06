@@ -24,7 +24,7 @@ const removeFromCart = (id) =>{
     const cart = getFromStorageCart();
     const remaining = cart.filter(item => item.product_id != id);
     localStorage.setItem('cart', JSON.stringify(remaining))
-    toast.success('Delete to cart');
+    toast.success('Deleted cart');
     return;
 }
 
@@ -50,4 +50,12 @@ const addCartWhishes = (product) =>{
     toast.success('Add to cart')
 }
 
-export {addCartToStorage, getFromStorageCart, addCartWhishes, getCartFromWish, removeFromCart}
+const removeWishCart = (id) =>{
+    const cart = getCartFromWish();
+    const remaining = cart.filter(item => item.product_id != id);
+    localStorage.setItem('wish-cart', JSON.stringify(remaining))
+    toast.success('Deleted cart');
+    return;
+}
+
+export {addCartToStorage, getFromStorageCart, addCartWhishes, getCartFromWish, removeFromCart, removeWishCart}

@@ -6,19 +6,19 @@
     },
     {
       "id": 2,
-      "category": "phone"
+      "category": "Phone"
     },
     {
       "id": 3,
-      "category": "laptop"
+      "category": "Laptop"
     },
     {
       "id": 4,
-      "category": "tablet"
+      "category": "Tablet"
     },
     {
       "id": 5,
-      "category": "accessories"
+      "category": "Accessories"
     }
   ]
 }

@@ -1,12 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../Layout/MainLayout";
 import Home from "../Pages/Home";
-import Statistics from "../Pages/Statistics";
 import DashBoard from "../Pages/DashBoard";
 import CategoryCards from "../Component/CategoryCards";
 import CardDetails from "../Component/CardDetails";
 import DashCart from "../Component/DashCart";
-import WishCart from "../Component/WishCart";
+import WishCart from "../Pages/WishCart";
+import Review from "../Pages/Review";
 
 
 const router = createBrowserRouter([
@@ -32,8 +32,9 @@ const router = createBrowserRouter([
         ]
       },
       {
-        path: "/statistics",
-        element: <Statistics></Statistics>,
+        path: "/Reviews",
+        element: <Review></Review>,
+        loader : () => fetch('/review.json')
       },
       {
         path: "/dashboard",

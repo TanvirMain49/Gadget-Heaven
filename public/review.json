@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Alex Johnson",
+      "photo": "https://randomuser.me/api/portraits/men/1.jpg",
+      "review": "Fantastic variety of gadgets! I found exactly what I was looking for. Great prices too.",
+      "rating": 5,
+      "date": "2024-11-01"
+    },
+    {
+      "id": 2,
+      "name": "Samantha Lee",
+      "photo": "https://randomuser.me/api/portraits/women/2.jpg",
+      "review": "Excellent customer service and fast delivery. The gadget quality is top-notch. Highly recommend!",
+      "rating": 4,
+      "date": "2024-10-30"
+    },
+    {
+      "id": 3,
+      "name": "Michael Smith",
+      "photo": "https://randomuser.me/api/portraits/men/3.jpg",
+      "review": "Gadget Heaven has everything a tech lover needs. Really enjoyed browsing the site. Very user-friendly!",
+      "rating": 5,
+      "date": "2024-11-02"
+    },
+    {
+      "id": 4,
+      "name": "Olivia Brown",
+      "photo": "https://randomuser.me/api/portraits/women/4.jpg",
+      "review": "Purchased a smartwatch here and it works flawlessly. The reviews helped me pick the perfect one!",
+      "rating": 5,
+      "date": "2024-10-28"
+    },
+    {
+      "id": 5,
+      "name": "Daniel Roberts",
+      "photo": "https://randomuser.me/api/portraits/men/5.jpg",
+      "review": "Impressive selection, but I wish there were more detailed descriptions. Overall, a solid experience.",
+      "rating": 3,
+      "date": "2024-10-27"
+    }
+  ]
+  

@@ -1,7 +1,8 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { NavLink, useLoaderData, useParams } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 import { CiShoppingCart, CiHeart } from "react-icons/ci";
 import { addCartToStorage, addCartWhishes } from "../Utilts";
+import { RxCross1 } from "react-icons/rx";
 
 
 const CardDetails = () => {
@@ -54,7 +55,7 @@ const CardDetails = () => {
               className="max-w-sm p-5 rounded-lg"
             />
             <div>
-              <div>
+              <div className="relative">
                 <h1 className="text-2xl font-bold pt-2">{product_title}</h1>
                 <p className="py-2 text-lg font-semibold">Price:${price}</p>
                 {availability ? (
@@ -90,7 +91,10 @@ const CardDetails = () => {
                     <button onClick={()=>handleAddToCart(productDetails)} className="btn mr-4 rounded-full bg-[#9538E2] text-white">Add To Card <CiShoppingCart className="text-2xl"/></button>
                     
                 <button onClick={()=>handleWishCart(productDetails)} className="btn text-xl rounded-full text-black border-gray-500"><CiHeart></CiHeart></button>
+
+                <NavLink to='/' className="btn text-base absolute top-1 right-1 ml-4 rounded-full text-black border-gray-500"><RxCross1  className=" text-xl text-error font-extrabold"/></NavLink>
               </div>
+
             </div>
           </div>
         </div>

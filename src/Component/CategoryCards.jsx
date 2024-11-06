@@ -22,7 +22,7 @@ const CategoryCards = () => {
     if(!product.length){
         return(
             <div>
-                <h1 className="text-2xl">Bal falaw</h1>
+                <h1 className="text-4xl font-bold text-[#9538E2] ml-24">No Product Available</h1>
             </div>
         )
     }
