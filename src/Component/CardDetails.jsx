@@ -1,6 +1,8 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 import { CiShoppingCart, CiHeart } from "react-icons/ci";
+import { addCartToStorage, addCartWhishes } from "../Utilts";
+
 
 const CardDetails = () => {
   const productData = useLoaderData();
@@ -8,6 +10,12 @@ const CardDetails = () => {
   const productDetails = productData.find(
     (data) => data.product_id === productId
   );
+  const handleAddToCart = (productDetails) =>{
+        addCartToStorage(productDetails)
+  }
+  const handleWishCart = (productDetails) =>{
+        addCartWhishes(productDetails);
+  }
   const {
     product_title,
     price,
@@ -79,8 +87,9 @@ const CardDetails = () => {
                 </div>
               </div>
               <div className="py-3 flex">
-                <button className="btn mr-4 rounded-full bg-[#9538E2] text-white">Add To Card <CiShoppingCart className="text-2xl"/></button>
-                <button className="btn text-xl rounded-full text-black border-gray-500"><CiHeart></CiHeart></button>
+                    <button onClick={()=>handleAddToCart(productDetails)} className="btn mr-4 rounded-full bg-[#9538E2] text-white">Add To Card <CiShoppingCart className="text-2xl"/></button>
+                    
+                <button onClick={()=>handleWishCart(productDetails)} className="btn text-xl rounded-full text-black border-gray-500"><CiHeart></CiHeart></button>
               </div>
             </div>
           </div>
