@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
 const PersonReview = ({ person }) => {
   console.log(person);
   const { name, photo, review, rating, date } = person;

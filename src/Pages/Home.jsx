@@ -33,7 +33,7 @@ const Home = () => {
           </div>
           <div className="max-h-[56%]">
             <img
-              src="/public/assets/banner.jpg"
+              src="/assets/banner.jpg"
               alt=""
               className="max-w-[90%] max-h-[88%] absolute z-10 border-4 border-white backdrop-blur-xl bg-white/30 p-5 right-52 -bottom-[48%] rounded-lg"
             />

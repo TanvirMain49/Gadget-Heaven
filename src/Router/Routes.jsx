@@ -7,11 +7,13 @@ import CardDetails from "../Component/CardDetails";
 import DashCart from "../Component/DashCart";
 import WishCart from "../Pages/WishCart";
 import Review from "../Pages/Review";
+import ErrorPage from "../ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
