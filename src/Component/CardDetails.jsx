@@ -32,7 +32,7 @@ const CardDetails = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative mb-96">
       <div className="bg-[#9538E2] rounded-xl min-h-80 pb-52">
         <div className="text-center text-white">
           <div className="">

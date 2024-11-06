@@ -8,8 +8,8 @@ const Navbar = () => {
 
   const navbarClass =
     navLocation === "/" || navLocation.startsWith("/cards")
-      ? "text-white absolute z-50 w-[70%] ml-24 top-12 rounded-lg"
-      : "bg-transparent";
+      ? "text-white absolute z-50 w-[70%] ml-24 top-10 rounded-lg"
+      : "bg-transparent mt-5";
   const links = (
     <>
       <NavLink
