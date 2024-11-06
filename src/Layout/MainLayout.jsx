@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../Component/Navbar";
-import { Toaster } from 'react-hot-toast';
+import { Toaster } from "react-hot-toast";
 const MainLayout = () => {
   return (
     <div className="w-10/12 mx-auto">
@@ -10,7 +10,7 @@ const MainLayout = () => {
         <Navbar></Navbar>
       </div>
       {/*Dynamic*/}
-        <Outlet></Outlet>
+      <Outlet></Outlet>
       {/* footer component */}
     </div>
   );

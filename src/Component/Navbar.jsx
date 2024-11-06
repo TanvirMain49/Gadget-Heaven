@@ -1,24 +1,54 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { CiShoppingCart, CiHeart } from "react-icons/ci";
 
-
 const Navbar = () => {
   const location = useLocation();
-  console.log(location.pathname)
+  console.log(location.pathname);
+  const navLocation = location.pathname;
+
+  const navbarClass =
+    navLocation === "/" || navLocation.startsWith("/cards")
+      ? "text-white absolute z-50 w-[70%] ml-24 top-12 rounded-lg"
+      : "bg-transparent";
   const links = (
     <>
-        <NavLink to='/' className={({isActive}) => isActive ? "bg-[#9538E2] text-white font-bold p-2 mr-2 rounded-lg" : "bg-transparent text-black font-bold p-2 mr-2 rounded-lg"}>Home</NavLink>
+      <NavLink
+        to="/"
+        className={({ isActive }) =>
+          isActive
+            ? "bg-[#9538E2] text-white font-bold p-2 mr-2 rounded-lg"
+            : "bg-transparent text-black font-bold p-2 mr-2 rounded-lg"
+        }
+      >
+        Home
+      </NavLink>
 
-        <NavLink to='/dashboard' className={({isActive}) => isActive ? "bg-[#9538E2] text-white font-bold p-2 mr-2 rounded-lg" : "bg-transparent text-black font-bold p-2 mr-2 rounded-lg"}>Dashboard</NavLink>
-        
-        <NavLink to='/Reviews' className={({isActive}) => isActive ? "bg-[#9538E2] text-white font-bold p-2 mr-2 rounded-lg" : "bg-transparent text-black font-bold p-2 mr-2 rounded-lg"}>Review</NavLink>
+      <NavLink
+        to="/dashboard"
+        className={({ isActive }) =>
+          isActive
+            ? "bg-[#9538E2] text-white font-bold p-2 mr-2 rounded-lg"
+            : "bg-transparent text-black font-bold p-2 mr-2 rounded-lg"
+        }
+      >
+        Dashboard
+      </NavLink>
 
-
+      <NavLink
+        to="/Reviews"
+        className={({ isActive }) =>
+          isActive
+            ? "bg-[#9538E2] text-white font-bold p-2 mr-2 rounded-lg"
+            : "bg-transparent text-black font-bold p-2 mr-2 rounded-lg"
+        }
+      >
+        Review
+      </NavLink>
     </>
   );
 
   return (
-    <div className="navbar">
+    <div className={`navbar ${navbarClass}`}>
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -50,8 +80,18 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-4">{links}</ul>
       </div>
       <div className="navbar-end gap-4 relative">
-        <NavLink to="/dashboard/product-cart" className='btn p-2 rounded-full text-2xl'><CiShoppingCart /></NavLink>
-        <NavLink to="/dashboard/wish-cart" className="btn p-2 rounded-full text-2xl"><CiHeart></CiHeart></NavLink>
+        <NavLink
+          to="/dashboard/product-cart"
+          className="btn p-2 rounded-full text-2xl w-[14%]"
+        >
+          <CiShoppingCart />
+        </NavLink>
+        <NavLink
+          to="/dashboard/wish-cart"
+          className="btn p-2 rounded-full text-2xl w-[14%]"
+        >
+          <CiHeart></CiHeart>
+        </NavLink>
       </div>
     </div>
   );

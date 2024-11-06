@@ -22,7 +22,11 @@ const WishCart = () => {
       <h1 className="text-2xl font-bold py-5">Wishes</h1>
       <div className="py-8">
         {products.map((product) => (
-          <Wishproduct key={product.product_id} product={product} handleDeleteWish={handleDeleteWish}></Wishproduct>
+          <Wishproduct
+            key={product.product_id}
+            product={product}
+            handleDeleteWish={handleDeleteWish}
+          ></Wishproduct>
         ))}
       </div>
     </div>

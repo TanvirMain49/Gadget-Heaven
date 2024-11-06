@@ -7,13 +7,13 @@ import { FaSortAmountDown } from "react-icons/fa";
 const DashCart = () => {
   const [products, setProduct] = useState([]);
   const [price, setPrice] = useState(0);
-//!   get data from local storage
+  //!   get data from local storage
   useEffect(() => {
     const card = getFromStorageCart();
     setProduct(card);
   }, []);
 
-//! total price cal
+  //! total price cal
   useEffect(() => {
     const totalPrice = products.reduce(
       (acc, product) => acc + (product.price || 0),
@@ -22,30 +22,31 @@ const DashCart = () => {
     setPrice(parseInt(totalPrice));
   }, [products]);
 
-//!   delate card 
+  //!   delate card
   const handleDeleteCard = (id) => {
     removeFromCart(id);
     const card = getFromStorageCart();
     setProduct(card);
   };
-//! modal show
-  const handlePurchase = () =>{
+  //! modal show
+  const handlePurchase = () => {
     const card = getFromStorageCart();
-    if(card.length === 0) return toast.error('You haven not added any product!')
-    else{
-    document.getElementById("my_modal_1").showModal();
-    localStorage.clear()
-    const cheekCart = getFromStorageCart();
-    setProduct(cheekCart);
+    if (card.length === 0)
+      return toast.error("You haven not added any product!");
+    else {
+      document.getElementById("my_modal_1").showModal();
+      localStorage.clear();
+      const cheekCart = getFromStorageCart();
+      setProduct(cheekCart);
     }
-  } 
+  };
 
-//!    sort by price
-console.log(products);
-const handleSort = () =>{
-    const sortCart = [...products].sort((a, b)=>b.price - a.price);
-    setProduct(sortCart)
-}
+  //!    sort by price
+  console.log(products);
+  const handleSort = () => {
+    const sortCart = [...products].sort((a, b) => b.price - a.price);
+    setProduct(sortCart);
+  };
 
   return (
     <div>
@@ -54,14 +55,16 @@ const handleSort = () =>{
         <div className="flex items-center gap-4">
           <h1 className="font-bold text-2xl">Total Price: ${price}</h1>
           <button
-           onClick={handleSort}
-           className="btn rounded-full border-[#9538E2] text-[#9538E2] bg-white font-bold">
+            onClick={handleSort}
+            className="btn rounded-full border-[#9538E2] text-[#9538E2] bg-white font-bold"
+          >
             Sort by Price
             <FaSortAmountDown></FaSortAmountDown>
           </button>
           <button
             onClick={() => {
-            handlePurchase()}}
+              handlePurchase();
+            }}
             className="btn rounded-full text-white bg-[#9538E2] font-bold"
           >
             Purchase
@@ -79,13 +82,10 @@ const handleSort = () =>{
       {/* modal */}
       <div>
         <dialog id="my_modal_1" className="modal">
-          
           <div className="modal-box text-center">
-          <img src="/assets/Group.png" alt="" className="mx-auto py-4"/>
+            <img src="/assets/Group.png" alt="" className="mx-auto py-4" />
             <h3 className="font-bold text-lg">Payment Successfully</h3>
-            <p className="py-4">
-              Thank You for Purchasing
-            </p>
+            <p className="py-4">Thank You for Purchasing</p>
             <div className="">
               <form method="dialog py-4">
                 {/* if there is a button in form, it will close the modal */}

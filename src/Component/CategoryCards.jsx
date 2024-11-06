@@ -19,13 +19,15 @@ const CategoryCards = () => {
       setProduct(data);
     }
   }, [category, data]);
-    if(!product.length){
-        return(
-            <div>
-                <h1 className="text-4xl font-bold text-[#9538E2] ml-24">No Product Available</h1>
-            </div>
-        )
-    }
+  if (!product.length) {
+    return (
+      <div>
+        <h1 className="text-4xl font-bold text-[#9538E2] ml-24">
+          No Product Available
+        </h1>
+      </div>
+    );
+  }
   return (
     <div className="grid md:grid-cols-3 grid-cols-1 gap-12">
       {product.map((Product, idx) => (

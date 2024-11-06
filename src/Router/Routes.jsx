@@ -8,7 +8,6 @@ import DashCart from "../Component/DashCart";
 import WishCart from "../Pages/WishCart";
 import Review from "../Pages/Review";
 
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,46 +17,46 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
         loader: () => fetch("/Category.json"),
-        children:[
-            {
-                path:'/',
-                element: <CategoryCards></CategoryCards>,
-                loader:()=> fetch("/CategoriesData.json")
-            },
-            {
-                path:'/cards/:category',
-                element: <CategoryCards></CategoryCards>,
-                loader:()=> fetch("/CategoriesData.json")
-            },
-        ]
+        children: [
+          {
+            path: "/",
+            element: <CategoryCards></CategoryCards>,
+            loader: () => fetch("/CategoriesData.json"),
+          },
+          {
+            path: "/cards/:category",
+            element: <CategoryCards></CategoryCards>,
+            loader: () => fetch("/CategoriesData.json"),
+          },
+        ],
       },
       {
         path: "/Reviews",
         element: <Review></Review>,
-        loader : () => fetch('/review.json')
+        loader: () => fetch("/review.json"),
       },
       {
         path: "/dashboard",
         element: <DashBoard></DashBoard>,
         children: [
-            {
-                path:"/dashboard/",
-                element:<DashCart></DashCart>
-            },
-            {
-                path:"/dashboard/product-cart",
-                element:<DashCart></DashCart>
-            },
-            {
-                path:"/dashboard/wish-cart",
-                element:<WishCart></WishCart>
-            },
-        ]
+          {
+            path: "/dashboard/",
+            element: <DashCart></DashCart>,
+          },
+          {
+            path: "/dashboard/product-cart",
+            element: <DashCart></DashCart>,
+          },
+          {
+            path: "/dashboard/wish-cart",
+            element: <WishCart></WishCart>,
+          },
+        ],
       },
       {
         path: "/card-Details/:productId",
-        element:<CardDetails></CardDetails>,
-        loader:()=> fetch("/CategoriesData.json")
+        element: <CardDetails></CardDetails>,
+        loader: () => fetch("/CategoriesData.json"),
       },
     ],
   },

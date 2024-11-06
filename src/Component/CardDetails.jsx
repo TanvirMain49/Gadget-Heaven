@@ -4,19 +4,18 @@ import { CiShoppingCart, CiHeart } from "react-icons/ci";
 import { addCartToStorage, addCartWhishes } from "../Utilts";
 import { RxCross1 } from "react-icons/rx";
 
-
 const CardDetails = () => {
   const productData = useLoaderData();
   const { productId } = useParams();
   const productDetails = productData.find(
     (data) => data.product_id === productId
   );
-  const handleAddToCart = (productDetails) =>{
-        addCartToStorage(productDetails)
-  }
-  const handleWishCart = (productDetails) =>{
-        addCartWhishes(productDetails);
-  }
+  const handleAddToCart = (productDetails) => {
+    addCartToStorage(productDetails);
+  };
+  const handleWishCart = (productDetails) => {
+    addCartWhishes(productDetails);
+  };
   const {
     product_title,
     price,
@@ -50,10 +49,7 @@ const CardDetails = () => {
       <div className="">
         <div className="absolute top-[50%] left-[10%] hero bg-base-200 max-w-[80%] mx-auto rounded-xl">
           <div className="hero-content gap-8 flex-col lg:flex-row">
-            <img
-              src={product_image}
-              className="max-w-sm p-5 rounded-lg"
-            />
+            <img src={product_image} className="max-w-sm p-5 rounded-lg" />
             <div>
               <div className="relative">
                 <h1 className="text-2xl font-bold pt-2">{product_title}</h1>
@@ -69,7 +65,9 @@ const CardDetails = () => {
                 <p className="font-bold pb-2">Specification: </p>
                 <ol className="list-decimal pl-5 pb-3">
                   {Specification.map((spca, idx) => (
-                    <li className="text-gray-500" key={idx}>{spca}</li>
+                    <li className="text-gray-500" key={idx}>
+                      {spca}
+                    </li>
                   ))}
                 </ol>
                 <p className="font-bold text-base">
@@ -88,13 +86,27 @@ const CardDetails = () => {
                 </div>
               </div>
               <div className="py-3 flex">
-                    <button onClick={()=>handleAddToCart(productDetails)} className="btn mr-4 rounded-full bg-[#9538E2] text-white">Add To Card <CiShoppingCart className="text-2xl"/></button>
-                    
-                <button onClick={()=>handleWishCart(productDetails)} className="btn text-xl rounded-full text-black border-gray-500"><CiHeart></CiHeart></button>
+                <button
+                  onClick={() => handleAddToCart(productDetails)}
+                  className="btn mr-4 rounded-full bg-[#9538E2] text-white"
+                >
+                  Add To Card <CiShoppingCart className="text-2xl" />
+                </button>
 
-                <NavLink to='/' className="btn text-base absolute top-1 right-1 ml-4 rounded-full text-black border-gray-500"><RxCross1  className=" text-xl text-error font-extrabold"/></NavLink>
+                <button
+                  onClick={() => handleWishCart(productDetails)}
+                  className="btn text-xl rounded-full text-black border-gray-500"
+                >
+                  <CiHeart></CiHeart>
+                </button>
+
+                <NavLink
+                  to="/"
+                  className="btn text-base absolute top-1 right-1 ml-4 rounded-full text-black border-gray-500"
+                >
+                  <RxCross1 className=" text-xl text-error font-extrabold" />
+                </NavLink>
               </div>
-
             </div>
           </div>
         </div>
