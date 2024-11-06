@@ -5,9 +5,6 @@ Welcome to *GadgetHeaven* — your go-to destination for the latest and greatest
 ## Live Website Link
 - [Live Demo](https://giddy-engine.surge.sh/)
 
-## Requirement Document
-- [Requirement Document](https://github.com/programming-hero-web-course2/b10a8-gadget-heaven-TanvirMain49)
-
 ---
 
 ## 🚀 Features
