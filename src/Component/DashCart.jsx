@@ -3,6 +3,7 @@ import { getFromStorageCart, removeFromCart } from "../Utilts";
 import Cart from "./Cart";
 import toast from "react-hot-toast";
 import { FaSortAmountDown } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const DashCart = () => {
   const [products, setProduct] = useState([]);
@@ -89,7 +90,7 @@ const DashCart = () => {
             <div className="">
               <form method="dialog py-4">
                 {/* if there is a button in form, it will close the modal */}
-                <button className="btn w-full">Close</button>
+                <NavLink to='/' className="btn w-full">Close</NavLink>
               </form>
             </div>
           </div>
