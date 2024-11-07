@@ -29,11 +29,13 @@ const CategoryCards = () => {
     );
   }
   return (
-    <div className="grid md:grid-cols-3 grid-cols-1 gap-12">
+      <div>
+      <div className="grid md:grid-cols-3 grid-cols-1 gap-8">
       {product.map((Product, idx) => (
         <Card key={idx} Product={Product}></Card>
       ))}
     </div>
+      </div>
   );
 };
 

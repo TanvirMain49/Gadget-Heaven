@@ -18,6 +18,42 @@
     },
     {
       "id": 5,
+      "category": "Power Bank"
+    },
+    {
+      "id": 6,
+      "category": "Headphone"
+    },
+    {
+      "id": 7,
+      "category": "VR"
+    },
+    {
+      "id": 8,
+      "category": "PC"
+    },
+    {
+      "id": 9,
+      "category": "Camera"
+    },
+    {
+      "id": 10,
+      "category": "Smartwatch"
+    },
+    {
+      "id": 11,
+      "category": "Monitor"
+    },
+    {
+      "id": 12,
+      "category": "Speaker"
+    },
+    {
+      "id": 13,
+      "category": "Gaming"
+    },
+    {
+      "id": 14,
       "category": "Accessories"
     }
   ]

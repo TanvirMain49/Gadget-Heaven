@@ -8,7 +8,7 @@ const Cart = ({product, handleDeleteCard}) => {
                 <img src={product_image} alt="" className="w-44 h-52 p-4"/>
             </div>
             <div className="space-y-4">
-                <h2 className="font-bold text-xl">{product_title}</h2>
+                <h2 className="font-bold text-xl">{product_title}</h2>\
                 <p className="text-base">{description}</p>
                 <h2 className="font-bold">Price: ${price}</h2>
             </div>

@@ -168,5 +168,345 @@
     ],
     "availability": true,
     "rating": 4.6
+  },
+  {
+    "product_id": 11,
+    "product_title": "iPhone 14 Pro",
+    "product_image": "https://i.ibb.co.com/example/iPhone14Pro.jpg",
+    "category": "Phone",
+    "price": 1099.99,
+    "description": "The latest iPhone 14 Pro with advanced camera capabilities and ProMotion technology.",
+    "Specification": [
+      "6.1-inch Super Retina XDR display",
+      "128GB storage",
+      "Triple rear camera with 48MP main sensor",
+      "A16 Bionic chip",
+      "3200mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 12,
+    "product_title": "Dell XPS 13",
+    "product_image": "https://i.ibb.co.com/example/DellXPS13.jpg",
+    "category": "Laptop",
+    "price": 1299.99,
+    "description": "High-performance laptop with a stunning display and sleek design.",
+    "Specification": [
+      "13.4-inch FHD+ display",
+      "512GB SSD",
+      "Intel Core i7 13th Gen",
+      "16GB RAM",
+      "Up to 12 hours of battery life"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 13,
+    "product_title": "Anker PowerCore 26800 Power Bank",
+    "product_image": "https://i.ibb.co.com/example/AnkerPowerCore.jpg",
+    "category": "Power Bank",
+    "price": 59.99,
+    "description": "High-capacity power bank with fast charging capability.",
+    "Specification": [
+      "26800mAh capacity",
+      "3 USB output ports",
+      "18W fast charging",
+      "Dual micro-USB inputs for faster recharge",
+      "Compact and portable design"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 14,
+    "product_title": "Apple AirPods Pro (2nd Gen)",
+    "product_image": "https://i.ibb.co.com/example/AirPodsPro2.jpg",
+    "category": "Headphone",
+    "price": 249.99,
+    "description": "Noise-cancelling wireless earbuds with improved sound quality.",
+    "Specification": [
+      "Active Noise Cancellation",
+      "Adaptive Transparency",
+      "Spatial Audio with dynamic head tracking",
+      "Up to 6 hours of listening time",
+      "Water and sweat resistance"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 15,
+    "product_title": "Oculus Quest 2 VR Headset",
+    "product_image": "https://i.ibb.co.com/example/OculusQuest2.jpg",
+    "category": "VR",
+    "price": 399.99,
+    "description": "All-in-one VR headset for immersive gaming and experiences.",
+    "Specification": [
+      "256GB storage",
+      "High-resolution display",
+      "3D positional audio",
+      "Hand tracking and haptic feedback",
+      "Built-in speakers"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 16,
+    "product_title": "Custom Gaming PC (RTX 4080)",
+    "product_image": "https://i.ibb.co.com/example/CustomPC4080.jpg",
+    "category": "PC",
+    "price": 2999.99,
+    "description": "High-performance custom gaming PC with the latest NVIDIA graphics.",
+    "Specification": [
+      "NVIDIA RTX 4080 GPU",
+      "Intel Core i9 13th Gen",
+      "32GB DDR5 RAM",
+      "1TB NVMe SSD",
+      "Liquid cooling system"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 17,
+    "product_title": "GoPro HERO10 Black",
+    "product_image": "https://i.ibb.co/com/example/GoProHERO10.jpg",
+    "category": "Camera",
+    "price": 399.99,
+    "description": "Capture stunning footage with the GoPro HERO10, featuring 5.3K video and HyperSmooth stabilization.",
+    "Specification": [
+      "5.3K video at 60fps",
+      "20MP photos",
+      "HyperSmooth 4.0 stabilization",
+      "Waterproof to 33ft",
+      "Touchscreen and voice control"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 18,
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://i.ibb.co/com/example/SamsungGalaxyWatch6.jpg",
+    "category": "Smartwatch",
+    "price": 299.99,
+    "description": "Smartwatch with advanced health features and sleek design.",
+    "Specification": [
+      "1.4-inch Super AMOLED display",
+      "Exynos W920 chipset",
+      "GPS and heart rate monitoring",
+      "Up to 40 hours of battery life",
+      "Water-resistant"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 19,
+    "product_title": "Bose QuietComfort 45",
+    "product_image": "https://i.ibb.co/com/example/BoseQC45.jpg",
+    "category": "Headphones",
+    "price": 329.99,
+    "description": "Premium noise-cancelling headphones with exceptional sound quality.",
+    "Specification": [
+      "Active noise cancellation",
+      "Up to 24 hours of battery life",
+      "Bluetooth 5.1",
+      "Comfortable memory foam ear cups",
+      "Sleek design"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 20,
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://i.ibb.co/com/example/SonyXM5.jpg",
+    "category": "Headphones",
+    "price": 349.99,
+    "description": "Industry-leading noise-cancelling headphones with exceptional sound and comfort.",
+    "Specification": [
+      "Noise-cancelling technology",
+      "Up to 30 hours of battery life",
+      "Touch control",
+      "Fast charging",
+      "Bluetooth 5.2"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 21,
+    "product_title": "Oculus Quest 2 VR Headset",
+    "product_image": "https://i.ibb.co.com/example/OculusQuest2.jpg",
+    "category": "VR",
+    "price": 399.99,
+    "description": "All-in-one VR headset for immersive gaming and experiences.",
+    "Specification": [
+      "256GB storage",
+      "High-resolution display",
+      "3D positional audio",
+      "Hand tracking and haptic feedback",
+      "Built-in speakers"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 22,
+    "product_title": "Custom Gaming PC (RTX 4080)",
+    "product_image": "https://i.ibb.co.com/example/CustomPC4080.jpg",
+    "category": "PC",
+    "price": 2999.99,
+    "description": "High-performance custom gaming PC with the latest NVIDIA graphics.",
+    "Specification": [
+      "NVIDIA RTX 4080 GPU",
+      "Intel Core i9 13th Gen",
+      "32GB DDR5 RAM",
+      "1TB NVMe SSD",
+      "Liquid cooling system"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 23,
+    "product_title": "HTC Vive Pro 2 VR Headset",
+    "product_image": "https://i.ibb.co/com/example/HTCVivePro2.jpg",
+    "category": "VR",
+    "price": 799.99,
+    "description": "Premium VR headset with 5K resolution and wide field of view.",
+    "Specification": [
+      "5K resolution (2448 x 2448 per eye)",
+      "120Hz refresh rate",
+      "6DoF tracking",
+      "Wide 120° field of view",
+      "Compatible with SteamVR"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 24,
+    "product_title": "Anker PowerCore 10000 Power Bank",
+    "product_image": "https://i.ibb.co/com/example/AnkerPowerCore10000.jpg",
+    "category": "Power Bank",
+    "price": 29.99,
+    "description": "Compact power bank with 10000mAh capacity and high-speed charging.",
+    "Specification": [
+      "10000mAh capacity",
+      "Dual USB ports",
+      "Quick charge technology",
+      "Compact and lightweight design",
+      "Built-in safety features"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 25,
+    "product_title": "Samsung Odyssey G7 27-Inch Curved Gaming Monitor",
+    "product_image": "https://i.ibb.co/com/example/SamsungOdysseyG7.jpg",
+    "category": "Monitor",
+    "price": 699.99,
+    "description": "27-inch curved gaming monitor with QHD resolution and 240Hz refresh rate.",
+    "Specification": [
+      "2560 x 1440 QHD resolution",
+      "240Hz refresh rate",
+      "Curved 1000R",
+      "NVIDIA G-Sync and FreeSync",
+      "HDR600 support"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 26,
+    "product_title": "Razer Kraken V3 Pro Gaming Headset",
+    "product_image": "https://i.ibb.co/com/example/RazerKrakenV3Pro.jpg",
+    "category": "Headphone",
+    "price": 229.99,
+    "description": "Wireless gaming headset with Razer HyperSense haptic feedback.",
+    "Specification": [
+      "THX Spatial Audio",
+      "Razer HyperSense haptic feedback",
+      "24-hour battery life",
+      "Retractable microphone",
+      "Customizable RGB lighting"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 27,
+    "product_title": "Alienware 34-Inch Curved Gaming Monitor",
+    "product_image": "https://i.ibb.co/com/example/Alienware34.jpg",
+    "category": "Monitor",
+    "price": 999.99,
+    "description": "Ultra-wide curved gaming monitor with 144Hz refresh rate and 1ms response time.",
+    "Specification": [
+      "3440 x 1440 resolution",
+      "144Hz refresh rate",
+      "1ms response time",
+      "NVIDIA G-Sync",
+      "HDR support"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 28,
+    "product_title": "Meta Quest Pro VR Headset",
+    "product_image": "https://i.ibb.co/com/example/MetaQuestPro.jpg",
+    "category": "VR",
+    "price": 1499.99,
+    "description": "Professional-grade VR headset with mixed reality capabilities.",
+    "Specification": [
+      "256GB storage",
+      "Quest 2 compatibility",
+      "Mixed reality functionality",
+      "Ultra-clear display",
+      "Advanced facial expressions tracking"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 29,
+    "product_title": "JBL Charge 5 Portable Bluetooth Speaker",
+    "product_image": "https://i.ibb.co/com/example/JBLCharge5.jpg",
+    "category": "Speaker",
+    "price": 179.99,
+    "description": "Powerful portable speaker with deep bass and waterproof design.",
+    "Specification": [
+      "30 hours of battery life",
+      "IP67 waterproof rating",
+      "Deep bass sound",
+      "USB-C charging",
+      "Bluetooth 5.1"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 30,
+    "product_title": "Logitech G923 Racing Wheel",
+    "product_image": "https://i.ibb.co/com/example/LogitechG923.jpg",
+    "category": "Gaming",
+    "price": 399.99,
+    "description": "TrueForce racing wheel for enhanced simulation gaming experience.",
+    "Specification": [
+      "TrueForce force feedback",
+      "24-point adjustable dial",
+      "Responsive pedals",
+      "Compatible with PlayStation, Xbox, and PC",
+      "Programmable buttons"
+    ],
+    "availability": true,
+    "rating": 4.8
   }
 ]

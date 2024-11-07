@@ -3,7 +3,6 @@ import { CiShoppingCart, CiHeart } from "react-icons/ci";
 
 const Navbar = () => {
   const location = useLocation();
-  console.log(location.pathname);
   const navLocation = location.pathname;
 
   const navbarClass =
