@@ -1,4 +1,4 @@
-import { NavLink, Outlet, useLoaderData, useNavigate } from "react-router-dom";
+import {  Outlet, useLoaderData, useNavigate } from "react-router-dom";
 import AllCategories from "../Component/AllCategories";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 

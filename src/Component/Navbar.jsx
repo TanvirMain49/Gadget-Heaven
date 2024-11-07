@@ -105,5 +105,4 @@ const Navbar = () => {
     </div>
   );
 };
-// btn p-2 rounded-full text-2xl
 export default Navbar;
