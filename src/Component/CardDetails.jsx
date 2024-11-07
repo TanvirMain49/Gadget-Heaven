@@ -7,7 +7,6 @@ import { RxCross1 } from "react-icons/rx";
 const CardDetails = () => {
   const productData = useLoaderData();
   const { productId } = useParams();
-  console.log(productId)
   const productDetails = productData.find(
     (data) => data.product_id === productId
   );

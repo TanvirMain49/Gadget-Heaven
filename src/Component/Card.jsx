@@ -16,7 +16,7 @@ const Card = ({ Product }) => {
         <div className="">
           <button
             onClick={() => navigate(`/card-Details/${product_id}`)}
-            className="btn rounded-full px-8 text-lg bg-[#9538E2] text-white"
+            className="btn rounded-full px-8 text-lg bg-[#9538E2] text-white hover hover:bg-black hover:text-white hover:font-bold hover:scale-105 transition-all ease-in-out duration-200"
           >
             View Details
           </button>

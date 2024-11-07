@@ -10,8 +10,8 @@ const AllCategories = ({ categoryTabs }) => {
             <NavLink
               className={({ isActive }) =>
                 isActive
-                  ? "bg-[#9538E2] text-white font-bold p-2 mr-2 rounded-lg btn w-[95%]"
-                  : "bg-transparent text-black font-bold p-2 mr-2 rounded-lg btn w-[95%]"
+                  ? "bg-[#9538E2] text-white font-bold p-2 mr-2 rounded-lg btn w-[95%] hover:bg-[#9538E2] hover:text-white hover:font-bold"
+                  : "bg-transparent text-black font-bold p-2 mr-2 rounded-lg btn w-[95%] hover:bg-black hover:text-white hover:font-bold hover:scale-105 transition-all ease-in duration-150"
               }
               key={categoryTab.id}
               to={`/cards/${categoryTab.category}`}

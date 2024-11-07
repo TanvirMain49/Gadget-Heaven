@@ -170,7 +170,7 @@
     "rating": 4.6
   },
   {
-    "product_id": 11,
+    "product_id": "11",
     "product_title": "iPhone 14 Pro",
     "product_image": "https://i.ibb.co.com/example/iPhone14Pro.jpg",
     "category": "Phone",
@@ -187,7 +187,7 @@
     "rating": 4.8
   },
   {
-    "product_id": 12,
+    "product_id": "12",
     "product_title": "Dell XPS 13",
     "product_image": "https://i.ibb.co.com/example/DellXPS13.jpg",
     "category": "Laptop",
@@ -204,7 +204,7 @@
     "rating": 4.8
   },
   {
-    "product_id": 13,
+    "product_id": "13",
     "product_title": "Anker PowerCore 26800 Power Bank",
     "product_image": "https://i.ibb.co.com/example/AnkerPowerCore.jpg",
     "category": "Power Bank",
@@ -221,7 +221,7 @@
     "rating": 4.7
   },
   {
-    "product_id": 14,
+    "product_id": "14",
     "product_title": "Apple AirPods Pro (2nd Gen)",
     "product_image": "https://i.ibb.co.com/example/AirPodsPro2.jpg",
     "category": "Headphone",
@@ -238,7 +238,7 @@
     "rating": 4.8
   },
   {
-    "product_id": 15,
+    "product_id": "15",
     "product_title": "Oculus Quest 2 VR Headset",
     "product_image": "https://i.ibb.co.com/example/OculusQuest2.jpg",
     "category": "VR",
@@ -255,7 +255,7 @@
     "rating": 4.7
   },
   {
-    "product_id": 16,
+    "product_id": "16",
     "product_title": "Custom Gaming PC (RTX 4080)",
     "product_image": "https://i.ibb.co.com/example/CustomPC4080.jpg",
     "category": "PC",
@@ -272,7 +272,7 @@
     "rating": 4.9
   },
   {
-    "product_id": 17,
+    "product_id": "17",
     "product_title": "GoPro HERO10 Black",
     "product_image": "https://i.ibb.co/com/example/GoProHERO10.jpg",
     "category": "Camera",
@@ -289,7 +289,7 @@
     "rating": 4.9
   },
   {
-    "product_id": 18,
+    "product_id": "18",
     "product_title": "Samsung Galaxy Watch 6",
     "product_image": "https://i.ibb.co/com/example/SamsungGalaxyWatch6.jpg",
     "category": "Smartwatch",
@@ -306,7 +306,7 @@
     "rating": 4.7
   },
   {
-    "product_id": 19,
+    "product_id": "19",
     "product_title": "Bose QuietComfort 45",
     "product_image": "https://i.ibb.co/com/example/BoseQC45.jpg",
     "category": "Headphones",
@@ -323,7 +323,7 @@
     "rating": 4.8
   },
   {
-    "product_id": 20,
+    "product_id": "20",
     "product_title": "Sony WH-1000XM5",
     "product_image": "https://i.ibb.co/com/example/SonyXM5.jpg",
     "category": "Headphones",
@@ -340,7 +340,7 @@
     "rating": 4.9
   },
   {
-    "product_id": 21,
+    "product_id": "21",
     "product_title": "Oculus Quest 2 VR Headset",
     "product_image": "https://i.ibb.co.com/example/OculusQuest2.jpg",
     "category": "VR",
@@ -357,7 +357,7 @@
     "rating": 4.7
   },
   {
-    "product_id": 22,
+    "product_id": "22",
     "product_title": "Custom Gaming PC (RTX 4080)",
     "product_image": "https://i.ibb.co.com/example/CustomPC4080.jpg",
     "category": "PC",
@@ -374,7 +374,7 @@
     "rating": 4.9
   },
   {
-    "product_id": 23,
+    "product_id": "23",
     "product_title": "HTC Vive Pro 2 VR Headset",
     "product_image": "https://i.ibb.co/com/example/HTCVivePro2.jpg",
     "category": "VR",
@@ -391,7 +391,7 @@
     "rating": 4.8
   },
   {
-    "product_id": 24,
+    "product_id": "24",
     "product_title": "Anker PowerCore 10000 Power Bank",
     "product_image": "https://i.ibb.co/com/example/AnkerPowerCore10000.jpg",
     "category": "Power Bank",
@@ -408,7 +408,7 @@
     "rating": 4.7
   },
   {
-    "product_id": 25,
+    "product_id": "25",
     "product_title": "Samsung Odyssey G7 27-Inch Curved Gaming Monitor",
     "product_image": "https://i.ibb.co/com/example/SamsungOdysseyG7.jpg",
     "category": "Monitor",
@@ -425,7 +425,7 @@
     "rating": 4.8
   },
   {
-    "product_id": 26,
+    "product_id": "26",
     "product_title": "Razer Kraken V3 Pro Gaming Headset",
     "product_image": "https://i.ibb.co/com/example/RazerKrakenV3Pro.jpg",
     "category": "Headphone",
@@ -442,7 +442,7 @@
     "rating": 4.7
   },
   {
-    "product_id": 27,
+    "product_id": "27",
     "product_title": "Alienware 34-Inch Curved Gaming Monitor",
     "product_image": "https://i.ibb.co/com/example/Alienware34.jpg",
     "category": "Monitor",
@@ -459,7 +459,7 @@
     "rating": 4.8
   },
   {
-    "product_id": 28,
+    "product_id": "28",
     "product_title": "Meta Quest Pro VR Headset",
     "product_image": "https://i.ibb.co/com/example/MetaQuestPro.jpg",
     "category": "VR",
@@ -476,7 +476,7 @@
     "rating": 4.6
   },
   {
-    "product_id": 29,
+    "product_id": "29",
     "product_title": "JBL Charge 5 Portable Bluetooth Speaker",
     "product_image": "https://i.ibb.co/com/example/JBLCharge5.jpg",
     "category": "Speaker",
@@ -493,7 +493,7 @@
     "rating": 4.7
   },
   {
-    "product_id": 30,
+    "product_id": "30",
     "product_title": "Logitech G923 Racing Wheel",
     "product_image": "https://i.ibb.co/com/example/LogitechG923.jpg",
     "category": "Gaming",
