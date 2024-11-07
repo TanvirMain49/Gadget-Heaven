@@ -8,6 +8,7 @@ import DashCart from "../Component/DashCart";
 import WishCart from "../Pages/WishCart";
 import Review from "../Pages/Review";
 import ErrorPage from "../ErrorPage";
+import Statistic from "../Pages/Statistic";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
             loader: () => fetch("/CategoriesData.json"),
           },
         ],
+      },
+      {
+        path: "/statistic",
+        element: <Statistic></Statistic>,
       },
       {
         path: "/Reviews",

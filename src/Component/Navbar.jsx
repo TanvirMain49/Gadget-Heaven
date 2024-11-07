@@ -22,6 +22,16 @@ const Navbar = () => {
       >
         Home
       </NavLink>
+      <NavLink
+        to="/statistic"
+        className={({ isActive }) =>
+          isActive
+            ? "bg-[#9538E2] text-white font-bold p-2 mr-2 rounded-lg"
+            : "bg-transparent text-black font-bold p-2 mr-2 rounded-lg"
+        }
+      >
+        Statistic
+      </NavLink>
 
       <NavLink
         to="/dashboard"
