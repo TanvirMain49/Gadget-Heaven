@@ -12,8 +12,8 @@ const DashBoard = () => {
         <div className="bg-[#9538E2] rounded-xl pb-12">
           <div className="text-center text-white">
             <div className="">
-              <h1 className="text-4xl font-bold px-24 pt-8">Product Details</h1>
-              <p className="text-base py-6 px-60">
+              <h1 className="text-4xl font-bold md:px-24 pt-8">Product Details</h1>
+              <p className="md:text-base text-sm md:py-6 py-5 md:px-60 px-4">
                 Explore the latest gadgets that will take your experience to the
                 next level. From smart devices to the coolest accessories, we
                 have it all!
@@ -24,8 +24,8 @@ const DashBoard = () => {
                 to="/dashboard/product-cart"
                 className={({ isActive }) =>
                   isActive
-                    ? "btn rounded-full text-[#9538E2] bg-white font-bold w-[10%]"
-                    : "btn rounded-full text-white bg-[#9538E2] font-bold w-[10%]"
+                    ? "btn rounded-full text-[#9538E2] bg-white font-bold md:w-[10%] w-[20%]"
+                    : "btn rounded-full text-white bg-[#9538E2] font-bold md:w-[10%] w-[20%]"
                 }
               >
                 Cart
@@ -34,8 +34,8 @@ const DashBoard = () => {
                 to="/dashboard/wish-cart"
                 className={({ isActive }) =>
                   isActive
-                    ? "btn rounded-full text-[#9538E2] bg-white font-bold w-[10%]"
-                    : "btn rounded-full text-white bg-[#9538E2] font-bold w-[10%]"
+                    ? "btn rounded-full text-[#9538E2] bg-white font-bold md:w-[10%] w-[20%]"
+                    : "btn rounded-full text-white bg-[#9538E2] font-bold md:w-[10%] w-[20%]"
                 }
               >
                 Wishes

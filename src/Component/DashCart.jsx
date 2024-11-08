@@ -51,13 +51,13 @@ const DashCart = () => {
 
   return (
     <div>
-      <div className="flex justify-between py-6">
-        <h2 className="font-bold text-2xl">Carts</h2>
-        <div className="flex items-center gap-4">
-          <h1 className="font-bold text-2xl">Total Price: ${price}</h1>
+      <div className="flex md:flex-row flex-col justify-between items-center py-6">
+        <h2 className="font-bold text-3xl md:text-neutral text-center md:py-0 pb-4">Carts</h2>
+        <div className="flex items-center gap-5">
+          <h1 className="font-bold md:text-2xl whitespace-nowrap text-lg">Total Price: ${price}</h1>
           <button
             onClick={handleSort}
-            className="btn rounded-full border-[#9538E2] text-[#9538E2] bg-white font-bold"
+            className="btn rounded-full border-[#9538E2] text-[#9538E2] bg-white font-bold max-w-fit"
           >
             Sort by Price
             <FaSortAmountDown></FaSortAmountDown>
@@ -66,7 +66,7 @@ const DashCart = () => {
             onClick={() => {
               handlePurchase();
             }}
-            className="btn rounded-full text-white bg-[#9538E2] font-bold"
+            className="btn rounded-full text-white bg-[#9538E2] font-bold max-w-fit md:mr-0 mr-3"
           >
             Purchase
           </button>

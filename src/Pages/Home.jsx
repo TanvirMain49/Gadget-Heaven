@@ -15,10 +15,10 @@ const Home = () => {
         <div className="relative bg-[#9538E2] rounded-xl md:min-h-[680px] md:mb-96 mb-48 mt-4">
           <div className="text-center md:py-32 py-28 text-white">
             <div className="">
-              <h1 className="md:text-5xl text-4xl font-bold md:px-24 px-2 md:pt-4 ">
+              <h1 className="md:text-5xl text-4xl font-bold md:px-24 md:whitespace-normal whitespace-break-spaces md:pt-4 ">
                 Upgrade Your Tech Accessorize with Gadget Heaven Accessories
               </h1>
-              <p className="text-base md:py-6 py-5 md:px-60 px-4 ">
+              <p className="text-base md:py-6 py-5 md:px-60 px-10">
                 Explore the latest gadgets that will take your experience to the
                 next level. From smart devices to the coolest accessories, we
                 have it all!
