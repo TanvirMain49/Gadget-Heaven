@@ -47,7 +47,7 @@ const addCartWhishes = (product) => {
     if (exist) return toast.error('Product already added');
     wishCart.push(product);
     localStorage.setItem('wish-cart', JSON.stringify(wishCart))
-    toast.success('Add to cart')
+    toast.success('Add to Wishes')
 }
 
 const removeWishCart = (id) => {

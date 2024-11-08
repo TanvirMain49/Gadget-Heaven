@@ -6,7 +6,7 @@ const Card = ({ Product }) => {
   const navigate = useNavigate();
 
   return (
-    <div className="card bg-base-100 max-w-80 shadow-xl">
+    <div className="card bg-base-100 max-w-80 md:mx-0 mx-auto shadow-xl">
       <figure className="h-[70%]">
         <img src={product_image} alt="Shoes" className="p-6" />
       </figure>

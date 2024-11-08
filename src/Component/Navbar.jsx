@@ -7,8 +7,8 @@ const Navbar = () => {
 
   const navbarClass =
     navLocation === "/" || navLocation.startsWith("/cards")
-      ? "text-white absolute z-50 w-[70%] ml-24 top-10 rounded-lg"
-      : "bg-transparent mt-5";
+      ? "text-white absolute z-50 w-[70%] md:ml-24 top-10 rounded-lg"
+      : "bg-transparent md:mt-5 mt-3 md:pr-0 pr-28";
   const links = (
     <>
       <NavLink
@@ -83,21 +83,21 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a className="text-lg font-bold">Gadget Heaven</a>
+        <a className="text-lg font-bold whitespace-nowrap">Gadget Heaven</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-4">{links}</ul>
       </div>
-      <div className="navbar-end gap-4 relative">
+      <div className="navbar-end md:gap-4 gap-2 md:ml-0 ml-32 relative">
         <NavLink
           to="/dashboard/product-cart"
-          className="btn p-2 rounded-full text-2xl w-[14%]"
+          className="btn md:p-2 rounded-full md:text-2xl md:w-[14%] "
         >
           <CiShoppingCart />
         </NavLink>
         <NavLink
           to="/dashboard/wish-cart"
-          className="btn p-2 rounded-full text-2xl w-[14%]"
+          className="btn md:p-2 rounded-full md:text-2xl md:w-[14%]"
         >
           <CiHeart></CiHeart>
         </NavLink>

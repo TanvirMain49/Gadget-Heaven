@@ -32,12 +32,12 @@ const CardDetails = () => {
   };
 
   return (
-    <div className="relative mb-96">
-      <div className="bg-[#9538E2] rounded-xl min-h-80 pb-52">
+    <div className="relative md:mb-96 mb-[20%]">
+      <div className="bg-[#9538E2] rounded-xl md:min-h-80 md:pb-52 pb-4 md:mb-0 mb-8">
         <div className="text-center text-white">
           <div className="">
-            <h1 className="text-4xl font-bold px-24 pt-8">Product Details</h1>
-            <p className="text-base py-6 px-60">
+            <h1 className="text-5xl font-bold md:px-24 pt-8">Product Details</h1>
+            <p className="text-base py-6 md:px-60 px-8 text-center">
               Explore the latest gadgets that will take your experience to the
               next level. From smart devices to the coolest accessories, we have
               it all!
@@ -46,13 +46,13 @@ const CardDetails = () => {
         </div>
       </div>
       {/* card section */}
-      <div className="">
-        <div className="absolute top-[50%] left-[10%] hero bg-base-200 max-w-[80%] mx-auto rounded-xl">
+      <div>
+        <div className="md:absolute md:top-[50%] top-[60%] md:left-[10%] hero bg-base-200 md:max-w-[80%] mx-auto rounded-xl">
           <div className="hero-content gap-8 flex-col lg:flex-row">
-            <img src={product_image} className="max-w-sm p-5 rounded-lg" />
+            <img src={product_image} className="max-w-sm md:p-5 p-16 rounded-lg" />
             <div>
               <div className="relative">
-                <h1 className="text-2xl font-bold pt-2">{product_title}</h1>
+                <h1 className="md:text-3xl text-4xl font-bold md:pt-2">{product_title}</h1>
                 <p className="py-2 text-lg font-semibold">Price:${price}</p>
                 {availability ? (
                   <button className="rounded-full border border-green-600 bg-green-200 text-[#309C08] px-3 mt-3">
@@ -85,26 +85,26 @@ const CardDetails = () => {
                   <p>{rating}</p>
                 </div>
               </div>
-              <div className="py-3 flex">
+              <div className="py-3 flex items-center">
                 <button
                   onClick={() => handleAddToCart(productDetails)}
-                  className="btn mr-4 rounded-full bg-[#9538E2] text-white"
+                  className="btn mr-4  md:rounded-full rounded-2xl bg-[#9538E2] text-white"
                 >
                   Add To Card <CiShoppingCart className="text-2xl" />
                 </button>
 
                 <button
                   onClick={() => handleWishCart(productDetails)}
-                  className="btn text-xl rounded-full text-black border-gray-500"
+                  className="btn text-xl md:rounded-full rounded-2xl text-black border-gray-500"
                 >
                   <CiHeart></CiHeart>
                 </button>
 
                 <NavLink
                   to="/"
-                  className="btn text-base absolute top-1 right-1 ml-4 rounded-full text-black border-gray-500"
+                  className="btn text-base absolute top-1 right-1 ml-4 rounded-full text-black border-gray-500 lg:inline-block hidden"
                 >
-                  <RxCross1 className=" text-xl text-error font-extrabold" />
+                  <RxCross1 className=" text-xl text-error font-extrabold mt-3" />
                 </NavLink>
               </div>
             </div>

@@ -12,13 +12,13 @@ const Home = () => {
           <title> Gadget || Gadget Haven</title>
           <link rel="canonical" href="https://www.tacobell.com/" />
         </Helmet>
-        <div className="relative bg-[#9538E2] rounded-xl min-h-[680px] mb-96 mt-4">
-          <div className="text-center py-32 text-white">
+        <div className="relative bg-[#9538E2] rounded-xl md:min-h-[680px] md:mb-96 mb-48 mt-4">
+          <div className="text-center md:py-32 py-28 text-white">
             <div className="">
-              <h1 className="text-5xl font-bold px-24 pt-4">
+              <h1 className="md:text-5xl text-4xl font-bold md:px-24 px-2 md:pt-4 ">
                 Upgrade Your Tech Accessorize with Gadget Heaven Accessories
               </h1>
-              <p className="text-base py-6 px-60">
+              <p className="text-base md:py-6 py-5 md:px-60 px-4 ">
                 Explore the latest gadgets that will take your experience to the
                 next level. From smart devices to the coolest accessories, we
                 have it all!
@@ -35,17 +35,17 @@ const Home = () => {
             <img
               src="/assets/banner.jpg"
               alt=""
-              className="max-w-[90%] max-h-[88%] absolute z-10 border-4 border-white backdrop-blur-xl bg-white/30 p-5 right-52 -bottom-[48%] rounded-lg"
+              className="max-w-[90%] max-h-[88%] absolute z-10 border-4 border-white backdrop-blur-xl bg-white/30 p-5 md:right-52 right-4 md:-bottom-[48%] -bottom-[30%] rounded-lg"
             />
           </div>
         </div>
         <div>
-          <h2 className="text-5xl py-4 text-center font-bold text-[#9538E2]">
+          <h2 className="md:text-5xl text-4xl py-4 text-center font-bold text-[#9538E2]">
             Explore Cutting-Edge Gadgets
           </h2>
         </div>
 
-        <div className="flex gap-8 py-8">
+        <div className="flex md:flex-row flex-col gap-8 py-8">
           <AllCategories categoryTabs={categoryTabs.categories}></AllCategories>
           {/* dynamic layout */}
           <Outlet></Outlet>

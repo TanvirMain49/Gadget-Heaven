@@ -30,7 +30,7 @@ const CategoryCards = () => {
   }
   return (
       <div>
-      <div className="grid md:grid-cols-3 grid-cols-1 gap-8">
+      <div className="grid md:grid-cols-3 grid-cols-1 md:gap-8 gap-4">
       {product.map((Product, idx) => (
         <Card key={idx} Product={Product}></Card>
       ))}

@@ -5,7 +5,7 @@ const AllCategories = ({ categoryTabs }) => {
   return (
     <div>
       <div>
-        <div className="flex flex-col justify-center items-center border-2 gap-4 p-7 rounded-xl">
+        <div className="md:flex md:flex-col grid grid-cols-2 justify-center items-center border-2 md:gap-4 gap-3 md:p-7 p-5 rounded-xl">
           {categoryTabs.map((categoryTab) => (
             <NavLink
               className={({ isActive }) =>
