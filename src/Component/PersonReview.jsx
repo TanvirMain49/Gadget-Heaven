@@ -3,9 +3,9 @@ const PersonReview = ({ person }) => {
   console.log(person);
   const { name, photo, review, rating, date } = person;
   return (
-    <div className="card w-[90%] shadow-xl flex-row ">
+    <div className="card md:w-[90%] flex-col md:mt-0 mt-8 border">
       <figure className="pt-4 rounded-xl">
-        <img src={photo} alt="" className="pl-8" />
+        <img src={photo} alt="" className="border-4 border-green-600 md:p-4 p-2 rounded-xl" />
       </figure>
       <div className="card-body">
         <h2 className="card-title text-2xl font-bold text-[#9538E2]">{name}</h2>

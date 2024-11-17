@@ -91,13 +91,13 @@ const Navbar = () => {
       <div className="navbar-end md:gap-4 gap-2 md:ml-0 ml-32 relative">
         <NavLink
           to="/dashboard/product-cart"
-          className="btn md:p-2 rounded-full md:text-2xl md:w-[14%] "
+          className="btn md:p-2 rounded-full md:text-2xl text-xl md:w-[14%] "
         >
           <CiShoppingCart />
         </NavLink>
         <NavLink
           to="/dashboard/wish-cart"
-          className="btn md:p-2 rounded-full md:text-2xl md:w-[14%]"
+          className="btn md:p-2 rounded-full md:text-2xl text-xl md:w-[14%]"
         >
           <CiHeart></CiHeart>
         </NavLink>
