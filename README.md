@@ -30,12 +30,6 @@ Welcome to GadgetHeaven — the best place to find the latest gadgets! This resp
 
 ---
 
-## 🖼 Screenshots  
-Include screenshots of your site here. For example:  
-![Home Page](link-to-home-page-screenshot)  
-![Product Page](link-to-product-page-screenshot)  
-
----
 
 ## 🛠 Dependencies  
 - React  
